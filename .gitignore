@@ -1,0 +1,15 @@
+images
+video
+cs229.egg-info
+pickles
+test/*.p
+.DS_Store
+.idea
+__pycache__
+*.joblib
+*.dot
+*.eps
+*.png
+input/
+output/
+experiments/
