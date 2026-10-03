@@ -15,7 +15,7 @@ setup(
         'tqdm',
         'numpy',
         'scikit_learn',
-        'opencv-python'
+        'opencv-python<5'
     ],
     include_package_data=True,
     zip_safe=False,

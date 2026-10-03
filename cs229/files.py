@@ -31,7 +31,7 @@ def get_dir(*args, mkdir_p=True):
     # return the path
     return path
 
-def get_file(*args, mkdir_p=False):
+def get_file(*args, mkdir_p=True):
     # get path to the directory (and make directory if needed/desired)
     dir = get_dir(*args[:-1], mkdir_p=mkdir_p)
 
@@ -41,7 +41,9 @@ def get_file(*args, mkdir_p=False):
     return path
 
 def read_video(name):
-    file_path = get_file('input', 'videos', name)
+    file_path = get_file('input', 'video', name)
+    if not os.path.exists(file_path):
+        file_path = get_file('input', 'videos', name)
 
     cap = cv2.VideoCapture(file_path)
     fps = cap.get(cv2.CAP_PROP_FPS)

@@ -1,5 +1,5 @@
 PROJECT_NAME=cs229-project
-CONDAROOT=~/miniconda3/bin
+CONDAROOT=~/miniconda3/Scripts
 
 SHELL=/bin/bash
 PYTHON=python
