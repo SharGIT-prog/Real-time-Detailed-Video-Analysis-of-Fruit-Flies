@@ -1,0 +1,15 @@
+,value
+pairs,168.0
+k,8.0
+silhouette,0.48276740636356585
+davies_bouldin,0.8868539659038275
+calinski_harabasz,77.63701830387953
+smallest_cluster_fraction,0.05952380952380952
+largest_cluster_fraction,0.30357142857142855
+alpha_male_mean_error_deg,7.052239114120788
+alpha_male_median_error_deg,3.4703766230802415
+alpha_female_mean_error_deg,4.611939882239535
+alpha_female_median_error_deg,1.6603219713897772
+delta_mean_error_deg,9.732449654490782
+delta_median_error_deg,4.689673407029062
+sector_agreement,0.9583333333333334

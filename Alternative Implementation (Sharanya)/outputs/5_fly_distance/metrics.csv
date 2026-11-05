@@ -1,0 +1,14 @@
+,value
+fly_component_accuracy,0.9530434782608695
+fly_component_precision,0.9923518164435946
+fly_component_recall,0.9575645756457565
+fly_component_f1,0.9746478873239437
+distance_mae_bl,0.82843534280825
+distance_median_ae_bl,0.29395481913098465
+distance_rmse_bl,1.4711635185460958
+distance_r2,0.5207623466018803
+distance_pearson_r,0.7276802084965777
+definition_r_head_abdomen_midpoints,0.9952333995796526
+definition_r_mean_of_head_pivot_abdomen,0.9981488953029393
+definition_r_head_to_head,0.9533148898845362
+definition_r_closest_keypoints,0.991898426530464

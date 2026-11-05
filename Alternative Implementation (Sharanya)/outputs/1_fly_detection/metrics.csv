@@ -1,0 +1,14 @@
+,value
+segments,635.0
+segment_accuracy,0.9716535433070866
+fly_precision,0.9816360601001669
+fly_recall,0.9882352941176471
+fly_f1,0.9849246231155779
+true_negatives,29.0
+false_positives,11.0
+false_negatives,7.0
+true_positives,588.0
+count_mae,0.1687116564417178
+count_rmse,0.4181466558121339
+count_bias,-0.16257668711656442
+count_exact_match,0.8343558282208589
